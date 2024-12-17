@@ -10,7 +10,7 @@
   --alt-text-color: #5d6970;
   --bg: #f3f6ff;
   --alt-bg: #e7ecff;
-  --section-padding: 60px;
+  --section-padding: 75px;
   --h1-size: 40px;
   --h2-size: 36px;
   --h3-size: 16px;
@@ -54,7 +54,7 @@ ul {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 5%;
+  gap: 100px;
 }
 .text-center {
   text-align: center;
