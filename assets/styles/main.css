@@ -103,7 +103,7 @@ header .container {
   font-weight: bold;
   color: #314285;
 }
-header nav ul li a {
+ul li a {
   color: var(--text-color);
 }
 @media (max-width: 991px) {
@@ -212,4 +212,32 @@ header nav ul li a {
 }
 .contact .section-btn {
   margin: auto;
+}
+footer {
+  padding: var(--section-padding) 0;
+  background-color: var(--alt-bg);
+}
+footer .top {
+  justify-content: space-between;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgb(0 0 0 / 0.1);
+}
+footer .copyright {
+  color: var(--alt-text-color);
+}
+footer .links {
+  justify-content: space-between;
+}
+.link {
+  padding-top: 50px;
+}
+footer .links .link ul {
+  display: flex;
+  gap: 20px;
+}
+@media (max-width: 477px) {
+  footer .top,
+  footer .links {
+    justify-content: center;
+  }
 }
