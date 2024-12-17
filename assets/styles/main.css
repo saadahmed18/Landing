@@ -15,6 +15,9 @@
   --h2-size: 36px;
   --h3-size: 16px;
 }
+html {
+  scroll-behavior: smooth;
+}
 .container {
   padding: 0 15px;
   margin: auto;
@@ -170,4 +173,23 @@ header nav ul li a {
     right: 0;
     width: 45%;
   }
+}
+@media (min-width: 992px) {
+  .about .container {
+    padding-top: 250px;
+  }
+}
+.cards-list {
+  gap: 20px;
+}
+.cards-list .card {
+  width: 240px;
+}
+.cards-list .card h3 {
+  margin: 15px 0;
+  color: var(--title-color);
+}
+.cards-list .card p {
+  line-height: 1.5;
+  color: var(--alt-text-color);
 }
